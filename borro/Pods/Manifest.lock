@@ -1,0 +1,15 @@
+PODS:
+  - STPopup (1.7.1)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - STPopup
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  STPopup: 7d9ea4759e4323141a4d5c259e547df2734427af
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+PODFILE CHECKSUM: 79c8714cae019a8924627e7f46cd131cf769d5f7
+
+COCOAPODS: 1.1.1

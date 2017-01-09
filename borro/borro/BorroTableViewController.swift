@@ -10,6 +10,8 @@ import UIKit
 
 class CustomTableViewController: UITableViewController {
 
+    var items = [Item]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +20,21 @@ class CustomTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        loadSampleItems()
+    }
+    
+    @IBAction func unWindToList(segue: UIStoryboardSegue) {}
+    
+    
+    func loadSampleItems() {
+        let itemBikeImage = UIImage(named: "bike")
+        let itemBike = Item(name: "Black Schwinn 26\"", location: "Pyne Hall", timeSeq: .hourly, price: 4, rating: 4, photo: itemBikeImage!)
+
+        let itemXboxImage = UIImage(named: "xbox")
+        let itemXbox = Item(name: "Xbox with 7 games", location: "Spelman Hall", timeSeq: .daily, price: 10, rating: 5, photo: itemXboxImage!)
+
+        items += [itemBike!, itemXbox!]
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,24 +43,24 @@ class CustomTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+    
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 1
+        return items.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ItemTableViewCell", forIndexPath: indexPath) as! ItemTableViewCell
+        let currItem = items[indexPath.row]
         
-        cell.cellTitle.text = "Black Schwinn 26\""
-        cell.cellDetails.text = "Pyne Hall | Min. 3 hours"
-        cell.cellPrice.text = "$4/hr"
-        cell.cellImage.image = UIImage(named: "bike")
+        cell.cellName.text = currItem.name
+        cell.cellDetails.text = currItem.location
+        cell.cellPrice.text = "$\(currItem.price)/" + currItem.timeSeqSuffix
+        cell.cellImage.image = currItem.photo
         
 
         return cell
@@ -84,14 +101,22 @@ class CustomTableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowDetail" {
+            let itemDetailsViewController = segue.destinationViewController as! ItemDetailsViewController
+            
+            // Get the cell that generated this segue.
+            if let selectedItemCell = sender as? ItemTableViewCell {
+                let indexPath = tableView.indexPathForCell(selectedItemCell)!
+                let selectedItem = items[indexPath.row]
+                itemDetailsViewController.item = selectedItem
+            }
+        }
     }
-    */
 
 }

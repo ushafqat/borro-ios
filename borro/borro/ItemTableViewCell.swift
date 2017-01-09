@@ -10,7 +10,7 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var cellTitle: UILabel!
+    @IBOutlet weak var cellName: UILabel!
     @IBOutlet weak var cellDetails: UILabel!
     @IBOutlet weak var cellPrice: UILabel!
     

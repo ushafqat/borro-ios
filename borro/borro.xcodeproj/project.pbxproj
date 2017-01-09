@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A68206C304FA5FCAB77CDCF /* Pods_borroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B18C620905B7FF56F35DC29 /* Pods_borroTests.framework */; };
 		8D2C86211DC9985100F8239C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86201DC9985100F8239C /* AppDelegate.swift */; };
 		8D2C86231DC9985100F8239C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86221DC9985100F8239C /* RootViewController.swift */; };
 		8D2C86251DC9985100F8239C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86241DC9985100F8239C /* DataViewController.swift */; };
@@ -17,10 +18,38 @@
 		8D2C863A1DC9985200F8239C /* borroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86391DC9985200F8239C /* borroTests.swift */; };
 		8D2C86451DC9985200F8239C /* borroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86441DC9985200F8239C /* borroUITests.swift */; };
 		8D2C86531DC99ABF00F8239C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C86521DC99ABF00F8239C /* WelcomeViewController.swift */; };
+		8DB3606C1DFBF39900A0067D /* CalendarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360611DFBF39900A0067D /* CalendarLogic.swift */; };
+		8DB3606D1DFBF39900A0067D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360621DFBF39900A0067D /* CalendarView.swift */; };
+		8DB3606E1DFBF39900A0067D /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB360631DFBF39900A0067D /* CalendarView.xib */; };
+		8DB3606F1DFBF39900A0067D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360641DFBF39900A0067D /* Date.swift */; };
+		8DB360701DFBF39900A0067D /* DayCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360651DFBF39900A0067D /* DayCollectionCell.swift */; };
+		8DB360711DFBF39900A0067D /* DayCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB360661DFBF39900A0067D /* DayCollectionCell.xib */; };
+		8DB360721DFBF39900A0067D /* MonthCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360671DFBF39900A0067D /* MonthCollectionCell.swift */; };
+		8DB360731DFBF39900A0067D /* MonthCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB360681DFBF39900A0067D /* MonthCollectionCell.xib */; };
+		8DB360741DFBF39900A0067D /* NSDateAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB360691DFBF39900A0067D /* NSDateAdditions.swift */; };
+		8DB360751DFBF39900A0067D /* WeekHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3606A1DFBF39900A0067D /* WeekHeaderView.swift */; };
+		8DB360761DFBF39900A0067D /* WeekHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB3606B1DFBF39900A0067D /* WeekHeaderView.xib */; };
 		8DB3C6AD1DCA7CD400F13099 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3C6AC1DCA7CD400F13099 /* TabBarController.swift */; };
 		8DB3C6AF1DCA7EAB00F13099 /* BorroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3C6AE1DCA7EAB00F13099 /* BorroTableViewController.swift */; };
 		8DB3C6B11DCA94C700F13099 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3C6B01DCA94C700F13099 /* ItemTableViewCell.swift */; };
+		8DD1AF7D1DD2775B00A0A836 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD1AF7C1DD2775B00A0A836 /* ItemDetailsViewController.swift */; };
+		8DD60BC21DF3BBAA00AD29EF /* LendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC11DF3BBAA00AD29EF /* LendViewController.swift */; };
+		8DD60BD51DF3BEBA00AD29EF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC31DF3BEBA00AD29EF /* AkiraTextField.swift */; };
+		8DD60BD61DF3BEBA00AD29EF /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC41DF3BEBA00AD29EF /* HoshiTextField.swift */; };
+		8DD60BD71DF3BEBA00AD29EF /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC51DF3BEBA00AD29EF /* IsaoTextField.swift */; };
+		8DD60BD81DF3BEBA00AD29EF /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC61DF3BEBA00AD29EF /* JiroTextField.swift */; };
+		8DD60BD91DF3BEBA00AD29EF /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC71DF3BEBA00AD29EF /* KaedeTextField.swift */; };
+		8DD60BDA1DF3BEBA00AD29EF /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC81DF3BEBA00AD29EF /* MadokaTextField.swift */; };
+		8DD60BDB1DF3BEBA00AD29EF /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BC91DF3BEBA00AD29EF /* MinoruTextField.swift */; };
+		8DD60BDC1DF3BEBA00AD29EF /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BCA1DF3BEBA00AD29EF /* TextFieldsEffects.swift */; };
+		8DD60BDD1DF3BEBA00AD29EF /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BCB1DF3BEBA00AD29EF /* YokoTextField.swift */; };
+		8DD60BDE1DF3BEBA00AD29EF /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BCC1DF3BEBA00AD29EF /* YoshikoTextField.swift */; };
+		8DD60BDF1DF3BEBA00AD29EF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DD60BCD1DF3BEBA00AD29EF /* Info.plist */; };
+		8DD60BE01DF3BEBA00AD29EF /* TextFieldEffects.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8DD60BCF1DF3BEBA00AD29EF /* TextFieldEffects.xcconfig */; };
+		8DD60BE11DF3BEBA00AD29EF /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD60BD01DF3BEBA00AD29EF /* TextFieldEffects-dummy.m */; };
 		8DDB5BC31DCE55880061A1B6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB5BC21DCE55880061A1B6 /* Item.swift */; };
+		A56B3F3F0DBA40DA7D5EE260 /* Pods_borroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D131223020076D9EE03309B /* Pods_borroUITests.framework */; };
+		D5AE959BFF6DCDEFD90B2F5B /* Pods_borro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342E32F6BBA7CCAF3C805FCE /* Pods_borro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +70,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D131223020076D9EE03309B /* Pods_borroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_borroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D17F4FE7D2EB8C5F968BDBC /* Pods-borroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-borroTests/Pods-borroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		342E32F6BBA7CCAF3C805FCE /* Pods_borro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_borro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381B67A553485821B8F43DF5 /* Pods-borroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-borroUITests/Pods-borroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C411876BE6BDE1704453E22 /* Pods-borroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-borroUITests/Pods-borroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		503C589AEA03EAE49B1A1C50 /* Pods-borro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-borro/Pods-borro.debug.xcconfig"; sourceTree = "<group>"; };
+		572D3EA6160D1B48084D947D /* Pods-borroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-borroTests/Pods-borroTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B18C620905B7FF56F35DC29 /* Pods_borroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_borroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1E893C1DDAE4D7006227D8 /* Borro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Borro-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D2C861D1DC9985100F8239C /* borro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = borro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2C86201DC9985100F8239C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D2C86221DC9985100F8239C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -57,10 +95,40 @@
 		8D2C86441DC9985200F8239C /* borroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = borroUITests.swift; sourceTree = "<group>"; };
 		8D2C86461DC9985200F8239C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2C86521DC99ABF00F8239C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8DB360611DFBF39900A0067D /* CalendarLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarLogic.swift; sourceTree = "<group>"; };
+		8DB360621DFBF39900A0067D /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8DB360631DFBF39900A0067D /* CalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
+		8DB360641DFBF39900A0067D /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		8DB360651DFBF39900A0067D /* DayCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionCell.swift; sourceTree = "<group>"; };
+		8DB360661DFBF39900A0067D /* DayCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCollectionCell.xib; sourceTree = "<group>"; };
+		8DB360671DFBF39900A0067D /* MonthCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthCollectionCell.swift; sourceTree = "<group>"; };
+		8DB360681DFBF39900A0067D /* MonthCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthCollectionCell.xib; sourceTree = "<group>"; };
+		8DB360691DFBF39900A0067D /* NSDateAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateAdditions.swift; sourceTree = "<group>"; };
+		8DB3606A1DFBF39900A0067D /* WeekHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekHeaderView.swift; sourceTree = "<group>"; };
+		8DB3606B1DFBF39900A0067D /* WeekHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekHeaderView.xib; sourceTree = "<group>"; };
 		8DB3C6AC1DCA7CD400F13099 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		8DB3C6AE1DCA7EAB00F13099 /* BorroTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorroTableViewController.swift; sourceTree = "<group>"; };
 		8DB3C6B01DCA94C700F13099 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		8DD1AF7C1DD2775B00A0A836 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		8DD60BC11DF3BBAA00AD29EF /* LendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendViewController.swift; sourceTree = "<group>"; };
+		8DD60BC31DF3BEBA00AD29EF /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		8DD60BC41DF3BEBA00AD29EF /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		8DD60BC51DF3BEBA00AD29EF /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		8DD60BC61DF3BEBA00AD29EF /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		8DD60BC71DF3BEBA00AD29EF /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		8DD60BC81DF3BEBA00AD29EF /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		8DD60BC91DF3BEBA00AD29EF /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		8DD60BCA1DF3BEBA00AD29EF /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldsEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldsEffects.swift; sourceTree = "<group>"; };
+		8DD60BCB1DF3BEBA00AD29EF /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		8DD60BCC1DF3BEBA00AD29EF /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		8DD60BCD1DF3BEBA00AD29EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD60BCE1DF3BEBA00AD29EF /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		8DD60BCF1DF3BEBA00AD29EF /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		8DD60BD01DF3BEBA00AD29EF /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		8DD60BD11DF3BEBA00AD29EF /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		8DD60BD21DF3BEBA00AD29EF /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		8DDB5BC21DCE55880061A1B6 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BC035B54CB447611A589764E /* Pods-borro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-borro.release.xcconfig"; path = "Pods/Target Support Files/Pods-borro/Pods-borro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AE959BFF6DCDEFD90B2F5B /* Pods_borro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A68206C304FA5FCAB77CDCF /* Pods_borroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56B3F3F0DBA40DA7D5EE260 /* Pods_borroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +166,10 @@
 				8D2C86381DC9985200F8239C /* borroTests */,
 				8D2C86431DC9985200F8239C /* borroUITests */,
 				8D2C861E1DC9985100F8239C /* Products */,
+				8DB360601DFBF39900A0067D /* CalendarKit */,
+				8DD60BD41DF3BEBA00AD29EF /* TextFieldEffects */,
+				DCE49E2EBE6A2EDC9CF0F8CC /* Pods */,
+				C7855FC85BF0FE57F7373F1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +191,13 @@
 				8D2C86241DC9985100F8239C /* DataViewController.swift */,
 				8D2C86261DC9985100F8239C /* ModelController.swift */,
 				8D2C86281DC9985100F8239C /* Main.storyboard */,
+				8DD1AF7C1DD2775B00A0A836 /* ItemDetailsViewController.swift */,
+				8D1E893C1DDAE4D7006227D8 /* Borro-Bridging-Header.h */,
 				8DDB5BC21DCE55880061A1B6 /* Item.swift */,
 				8DB3C6B01DCA94C700F13099 /* ItemTableViewCell.swift */,
 				8DB3C6AE1DCA7EAB00F13099 /* BorroTableViewController.swift */,
 				8DB3C6AC1DCA7CD400F13099 /* TabBarController.swift */,
+				8DD60BC11DF3BBAA00AD29EF /* LendViewController.swift */,
 				8D2C86521DC99ABF00F8239C /* WelcomeViewController.swift */,
 				8D2C862B1DC9985100F8239C /* Assets.xcassets */,
 				8D2C862D1DC9985200F8239C /* LaunchScreen.storyboard */,
@@ -146,6 +224,80 @@
 			path = borroUITests;
 			sourceTree = "<group>";
 		};
+		8DB360601DFBF39900A0067D /* CalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				8DB360611DFBF39900A0067D /* CalendarLogic.swift */,
+				8DB360621DFBF39900A0067D /* CalendarView.swift */,
+				8DB360631DFBF39900A0067D /* CalendarView.xib */,
+				8DB360641DFBF39900A0067D /* Date.swift */,
+				8DB360651DFBF39900A0067D /* DayCollectionCell.swift */,
+				8DB360661DFBF39900A0067D /* DayCollectionCell.xib */,
+				8DB360671DFBF39900A0067D /* MonthCollectionCell.swift */,
+				8DB360681DFBF39900A0067D /* MonthCollectionCell.xib */,
+				8DB360691DFBF39900A0067D /* NSDateAdditions.swift */,
+				8DB3606A1DFBF39900A0067D /* WeekHeaderView.swift */,
+				8DB3606B1DFBF39900A0067D /* WeekHeaderView.xib */,
+			);
+			path = CalendarKit;
+			sourceTree = "<group>";
+		};
+		8DD60BD31DF3BEBA00AD29EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DD60BCD1DF3BEBA00AD29EF /* Info.plist */,
+				8DD60BCE1DF3BEBA00AD29EF /* TextFieldEffects.modulemap */,
+				8DD60BCF1DF3BEBA00AD29EF /* TextFieldEffects.xcconfig */,
+				8DD60BD01DF3BEBA00AD29EF /* TextFieldEffects-dummy.m */,
+				8DD60BD11DF3BEBA00AD29EF /* TextFieldEffects-prefix.pch */,
+				8DD60BD21DF3BEBA00AD29EF /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		8DD60BD41DF3BEBA00AD29EF /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8DD60BC31DF3BEBA00AD29EF /* AkiraTextField.swift */,
+				8DD60BC41DF3BEBA00AD29EF /* HoshiTextField.swift */,
+				8DD60BC51DF3BEBA00AD29EF /* IsaoTextField.swift */,
+				8DD60BC61DF3BEBA00AD29EF /* JiroTextField.swift */,
+				8DD60BC71DF3BEBA00AD29EF /* KaedeTextField.swift */,
+				8DD60BC81DF3BEBA00AD29EF /* MadokaTextField.swift */,
+				8DD60BC91DF3BEBA00AD29EF /* MinoruTextField.swift */,
+				8DD60BCA1DF3BEBA00AD29EF /* TextFieldsEffects.swift */,
+				8DD60BCB1DF3BEBA00AD29EF /* YokoTextField.swift */,
+				8DD60BCC1DF3BEBA00AD29EF /* YoshikoTextField.swift */,
+				8DD60BD31DF3BEBA00AD29EF /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = Pods/TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		C7855FC85BF0FE57F7373F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342E32F6BBA7CCAF3C805FCE /* Pods_borro.framework */,
+				7B18C620905B7FF56F35DC29 /* Pods_borroTests.framework */,
+				0D131223020076D9EE03309B /* Pods_borroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE49E2EBE6A2EDC9CF0F8CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503C589AEA03EAE49B1A1C50 /* Pods-borro.debug.xcconfig */,
+				BC035B54CB447611A589764E /* Pods-borro.release.xcconfig */,
+				2D17F4FE7D2EB8C5F968BDBC /* Pods-borroTests.debug.xcconfig */,
+				572D3EA6160D1B48084D947D /* Pods-borroTests.release.xcconfig */,
+				3C411876BE6BDE1704453E22 /* Pods-borroUITests.debug.xcconfig */,
+				381B67A553485821B8F43DF5 /* Pods-borroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D2C86491DC9985200F8239C /* Build configuration list for PBXNativeTarget "borro" */;
 			buildPhases = (
+				C358CCBFA681B5BE539C56D8 /* [CP] Check Pods Manifest.lock */,
 				8D2C86191DC9985100F8239C /* Sources */,
 				8D2C861A1DC9985100F8239C /* Frameworks */,
 				8D2C861B1DC9985100F8239C /* Resources */,
+				5C777A41A0ECF247912D6CE5 /* [CP] Embed Pods Frameworks */,
+				7AF056178F6C210CD04E8156 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D2C864C1DC9985200F8239C /* Build configuration list for PBXNativeTarget "borroTests" */;
 			buildPhases = (
+				915443E3A3CE8B1580F61B54 /* [CP] Check Pods Manifest.lock */,
 				8D2C86311DC9985200F8239C /* Sources */,
 				8D2C86321DC9985200F8239C /* Frameworks */,
 				8D2C86331DC9985200F8239C /* Resources */,
+				C0BBCACF05E4E48A9875D008 /* [CP] Embed Pods Frameworks */,
+				4917413E7E0D63FCD904B653 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D2C864F1DC9985200F8239C /* Build configuration list for PBXNativeTarget "borroUITests" */;
 			buildPhases = (
+				D0C145EEF5AB0D2B6FA7B6FC /* [CP] Check Pods Manifest.lock */,
 				8D2C863C1DC9985200F8239C /* Sources */,
 				8D2C863D1DC9985200F8239C /* Frameworks */,
 				8D2C863E1DC9985200F8239C /* Resources */,
+				D0E6C2E59DF8DD662C219546 /* [CP] Embed Pods Frameworks */,
+				D38E52B33E2F2A484E091F77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +411,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB3606E1DFBF39900A0067D /* CalendarView.xib in Resources */,
+				8DB360711DFBF39900A0067D /* DayCollectionCell.xib in Resources */,
+				8DB360731DFBF39900A0067D /* MonthCollectionCell.xib in Resources */,
+				8DB360761DFBF39900A0067D /* WeekHeaderView.xib in Resources */,
+				8DD60BDF1DF3BEBA00AD29EF /* Info.plist in Resources */,
+				8DD60BE01DF3BEBA00AD29EF /* TextFieldEffects.xcconfig in Resources */,
 				8D2C862F1DC9985200F8239C /* LaunchScreen.storyboard in Resources */,
 				8D2C862C1DC9985100F8239C /* Assets.xcassets in Resources */,
 				8D2C862A1DC9985100F8239C /* Main.storyboard in Resources */,
@@ -272,20 +439,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4917413E7E0D63FCD904B653 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borroTests/Pods-borroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C777A41A0ECF247912D6CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borro/Pods-borro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF056178F6C210CD04E8156 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borro/Pods-borro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		915443E3A3CE8B1580F61B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BBCACF05E4E48A9875D008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borroTests/Pods-borroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C358CCBFA681B5BE539C56D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C145EEF5AB0D2B6FA7B6FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E6C2E59DF8DD662C219546 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borroUITests/Pods-borroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38E52B33E2F2A484E091F77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-borroUITests/Pods-borroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D2C86191DC9985100F8239C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D2C86231DC9985100F8239C /* RootViewController.swift in Sources */,
+				8DD60BD61DF3BEBA00AD29EF /* HoshiTextField.swift in Sources */,
+				8DB3606D1DFBF39900A0067D /* CalendarView.swift in Sources */,
+				8DB3606C1DFBF39900A0067D /* CalendarLogic.swift in Sources */,
+				8DD60BC21DF3BBAA00AD29EF /* LendViewController.swift in Sources */,
+				8DD60BD91DF3BEBA00AD29EF /* KaedeTextField.swift in Sources */,
+				8DB3606F1DFBF39900A0067D /* Date.swift in Sources */,
 				8DDB5BC31DCE55880061A1B6 /* Item.swift in Sources */,
+				8DD1AF7D1DD2775B00A0A836 /* ItemDetailsViewController.swift in Sources */,
+				8DD60BDE1DF3BEBA00AD29EF /* YoshikoTextField.swift in Sources */,
 				8D2C86531DC99ABF00F8239C /* WelcomeViewController.swift in Sources */,
 				8D2C86271DC9985100F8239C /* ModelController.swift in Sources */,
 				8DB3C6AD1DCA7CD400F13099 /* TabBarController.swift in Sources */,
 				8DB3C6B11DCA94C700F13099 /* ItemTableViewCell.swift in Sources */,
+				8DD60BD71DF3BEBA00AD29EF /* IsaoTextField.swift in Sources */,
+				8DB360721DFBF39900A0067D /* MonthCollectionCell.swift in Sources */,
+				8DD60BD51DF3BEBA00AD29EF /* AkiraTextField.swift in Sources */,
+				8DD60BDA1DF3BEBA00AD29EF /* MadokaTextField.swift in Sources */,
+				8DD60BDB1DF3BEBA00AD29EF /* MinoruTextField.swift in Sources */,
+				8DD60BDD1DF3BEBA00AD29EF /* YokoTextField.swift in Sources */,
+				8DD60BDC1DF3BEBA00AD29EF /* TextFieldsEffects.swift in Sources */,
+				8DB360701DFBF39900A0067D /* DayCollectionCell.swift in Sources */,
+				8DB360741DFBF39900A0067D /* NSDateAdditions.swift in Sources */,
+				8DD60BD81DF3BEBA00AD29EF /* JiroTextField.swift in Sources */,
 				8D2C86251DC9985100F8239C /* DataViewController.swift in Sources */,
+				8DB360751DFBF39900A0067D /* WeekHeaderView.swift in Sources */,
 				8DB3C6AF1DCA7EAB00F13099 /* BorroTableViewController.swift in Sources */,
 				8D2C86211DC9985100F8239C /* AppDelegate.swift in Sources */,
+				8DD60BE11DF3BEBA00AD29EF /* TextFieldEffects-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,28 +752,33 @@
 		};
 		8D2C864A1DC9985200F8239C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503C589AEA03EAE49B1A1C50 /* Pods-borro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = borro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borro.borro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "borro/Borro-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		8D2C864B1DC9985200F8239C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC035B54CB447611A589764E /* Pods-borro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = borro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.borro.borro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "borro/Borro-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		8D2C864D1DC9985200F8239C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D17F4FE7D2EB8C5F968BDBC /* Pods-borroTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = borroTests/Info.plist;
@@ -461,6 +791,7 @@
 		};
 		8D2C864E1DC9985200F8239C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572D3EA6160D1B48084D947D /* Pods-borroTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = borroTests/Info.plist;
@@ -473,6 +804,7 @@
 		};
 		8D2C86501DC9985200F8239C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C411876BE6BDE1704453E22 /* Pods-borroUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = borroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +816,7 @@
 		};
 		8D2C86511DC9985200F8239C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381B67A553485821B8F43DF5 /* Pods-borroUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = borroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
